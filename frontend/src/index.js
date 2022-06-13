@@ -6,6 +6,9 @@ import './bootstrap.min.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Kommunicate from '@kommunicate/kommunicate-chatbot-plugin';
+
+Kommunicate.init("2f02694051fa0fba2334b3a2aea40e825")  
 
 ReactDOM.render(
   <Provider store={store}>

@@ -18,11 +18,13 @@ import UserEditScreen from './screens/UserEditScreen';
 import ProductListScreen from './screens/ProductListScreen';
 import ProductEditScreen from './screens/ProductEditScreen';
 import OrderListScreen from './screens/OrderListScreen';
+import kommunicateChat from './chat';
 
 const App = () => {
   return (
     <Router>
     <Header/>
+    <kommunicateChat />
     <main className='py-3'>
     <Container>
     <Route path='/order/:id' component={OrderScreen} />

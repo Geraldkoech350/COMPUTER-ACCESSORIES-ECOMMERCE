@@ -178,9 +178,9 @@ const ProductEditScreen = ({ match, history }) => {
                 ></Form.Control>
             </Form.Group>
 
-            <Button type='sumbit' variant='btn btn-info'>
+            <Button type='submit' variant='btn btn-info'>
                 Update
-            </Button>
+            </Button>F
         </Form>
         )}
 
